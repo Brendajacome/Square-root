@@ -19,9 +19,11 @@ The language selectioned to do this code us phyton, with the version 3.12.0, for
 
 This program help us to do the square root of a number.
 
-Ejecution:
+Ejecution when the number is positive:
 
 ![image phyton](https://github.com/Brendajacome/Square-root/assets/169933606/f51d53a7-4667-4098-956a-9894a8f7dff5)
 
+Ejeceution when the number is negative:
 
+![image phyton 2](https://github.com/Brendajacome/Square-root/blob/main/image%20phyton%202.png)
 
