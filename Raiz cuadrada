@@ -7,9 +7,9 @@ def raiz_cuadrada(number):
     return "You cannot calculate the square root of a negative number."
 
 number = float(input("Enter a number:"))
-resultado = raiz_cuadrada(number))
+result = raiz_cuadrada(number)
 
-if isinstance(resultado, float):
-  print(f"The square root of {number} es: {result}")
+if isinstance(result, float):
+  print(f"The square root of {number} is: {result}")
 else:
   print(result)
