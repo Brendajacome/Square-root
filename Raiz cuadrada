@@ -1,24 +1,15 @@
 import math
 
-def raiz_cuadrada(numero):
-  """
-  Calcula la raíz cuadrada de un número.
-
-  Argumentos:
-    numero: El número del que se quiere calcular la raíz cuadrada.
-
-  Devuelve:
-    La raíz cuadrada del número si es positivo, un mensaje de error si es negativo.
-  """
-  if numero >= 0:
-    return math.sqrt(numero)
+def raiz_cuadrada(number):
+  if number >= 0:
+    return math.sqrt(number)
   else:
-    return "No se puede calcular la raíz cuadrada de un número negativo."
+    return "You cannot calculate the square root of a negative number."
 
-numero = float(input("Ingrese un número: "))
-resultado = raiz_cuadrada(numero)
+number = float(input("Enter a number:"))
+resultado = raiz_cuadrada(number))
 
 if isinstance(resultado, float):
-  print(f"La raíz cuadrada de {numero} es: {resultado}")
+  print(f"The square root of {number} es: {result}")
 else:
-  print(resultado)
+  print(result)
